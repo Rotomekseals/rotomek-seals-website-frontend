@@ -1,5 +1,5 @@
 import { Car, Pill, Fuel, Beaker, Package, Coffee, Droplets } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+
 
 const Industries = () => {
   const industries = [

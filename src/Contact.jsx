@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react'
-import { Button } from '@/components/ui/button'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
