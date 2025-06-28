@@ -1,6 +1,6 @@
 import { ArrowRight, CheckCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import heroImage from '../assets/mechanical-seals-hero.jpg'
+import heroImage from './assets/mechanical-seals-hero.jpg'
 
 const Hero = () => {
   const features = [
