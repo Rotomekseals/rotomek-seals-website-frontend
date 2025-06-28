@@ -1,5 +1,4 @@
 import { ArrowRight, CheckCircle } from 'lucide-react'
-import { Button } from '@/components/ui/button'
 import heroImage from './mechanical-seals-hero.jpg';
 
 

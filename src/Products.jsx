@@ -1,5 +1,4 @@
 import { ArrowRight, Settings, Shield, Zap } from 'lucide-react'
-import { Button } from '@/components/ui/button'
 import cartridgeSeal from './cartridge-seal.jpg'
 
 const Products = () => {
