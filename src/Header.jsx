@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Menu, X, Phone, Mail, MapPin } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import rotomekLogo from './assets/rotomek-logo.png'
+import rotomekLogo from './rotomek-logo.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
