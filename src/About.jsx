@@ -1,5 +1,5 @@
 import { Award, Users, Factory, Wrench } from 'lucide-react'
-import mechanicalSealDiagram from '../assets/mechanical-seal-diagram.jpg'
+import mechanicalSealDiagram from './assets/mechanical-seal-diagram.jpg'
 
 const About = () => {
   const values = [
