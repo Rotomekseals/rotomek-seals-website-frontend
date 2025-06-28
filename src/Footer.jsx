@@ -1,6 +1,6 @@
 import { MapPin, Phone, Mail, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import rotomekLogo from './assets/rotomek-logo.png'
+import rotomekLogo from './rotomek-logo.png'
 
 const Footer = () => {
   const productLinks = [
