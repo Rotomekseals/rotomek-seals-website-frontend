@@ -65,9 +65,9 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex">
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white">
+            <button className="px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-md font-medium">
               Get Quote
-            </Button>
+            </button>
           </div>
 
           {/* Mobile menu button */}
@@ -101,9 +101,9 @@ const Header = () => {
               </a>
             ))}
             <div className="px-3 py-2">
-              <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
+              <button className="w-full px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-md font-medium">
                 Get Quote
-              </Button>
+              </button>
             </div>
           </div>
         </div>
@@ -113,4 +113,3 @@ const Header = () => {
 }
 
 export default Header
-
