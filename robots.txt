@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rotoseals.co.in/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /#about
+Allow: /#products
+Allow: /#industries
+Allow: /#services
+Allow: /#contact
+
+# Crawl delay
+Crawl-delay: 1
+
