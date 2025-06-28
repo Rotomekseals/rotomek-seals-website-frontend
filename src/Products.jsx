@@ -1,5 +1,5 @@
-import { ArrowRight, Settings, Shield, Zap } from 'lucide-react'
-import cartridgeSeal from './cartridge-seal.jpg'
+import { ArrowRight, Settings, Shield, Zap } from 'lucide-react';
+import cartridgeSeal from './cartridge-seal.jpg';
 
 const Products = () => {
   const productCategories = [
@@ -39,7 +39,7 @@ const Products = () => {
       features: ['Excellent chemical resistance', 'Wide temperature range', 'Low friction operation'],
       icon: Zap
     }
-  ]
+  ];
 
   const applications = [
     'Centrifugal Pumps',
@@ -48,7 +48,7 @@ const Products = () => {
     'Water Pumps',
     'Oil & Gas Pumps',
     'Food Grade Pumps'
-  ]
+  ];
 
   return (
     <section id="products" className="py-20 bg-gray-50">
@@ -90,10 +90,10 @@ const Products = () => {
                   <span className="text-gray-700">Suitable for clear and dirty liquids</span>
                 </div>
               </div>
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+              <button className="inline-flex items-center px-5 py-3 rounded-md bg-blue-600 text-white hover:bg-blue-700 transition">
                 View Specifications
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              </button>
             </div>
             <div className="relative">
               <img
@@ -126,9 +126,9 @@ const Products = () => {
                   </li>
                 ))}
               </ul>
-              <Button variant="outline" size="sm" className="w-full">
+              <button className="w-full py-2 px-4 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-50 transition">
                 Learn More
-              </Button>
+              </button>
             </div>
           ))}
         </div>
@@ -163,18 +163,17 @@ const Products = () => {
             requirements. Contact us to discuss your application needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
+            <button className="px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded font-medium">
               Request Custom Quote
-            </Button>
-            <Button size="lg" variant="outline">
+            </button>
+            <button className="px-6 py-3 border border-gray-300 text-gray-700 hover:bg-gray-100 rounded font-medium">
               Download Product Catalog
-            </Button>
+            </button>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Products
-
+export default Products;

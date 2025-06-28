@@ -54,7 +54,7 @@ const Contact = () => {
       icon: MapPin,
       title: 'Address',
       details: [
-        'D-116 Bulandshahar Road',
+        'E-104 Bulandshahar Road',
         'Industrial Area, Ghaziabad',
         'Uttar Pradesh - 201001, India'
       ]
@@ -62,7 +62,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91-120-4160525']
+      details: ['+91-9999415666']
     },
     {
       icon: Mail,
@@ -73,8 +73,8 @@ const Contact = () => {
       icon: Clock,
       title: 'Business Hours',
       details: [
-        'Monday - Friday: 9:00 AM - 6:00 PM',
-        'Saturday: 9:00 AM - 1:00 PM',
+        'Monday - Friday: 8:00 AM - 7:00 PM',
+        'Saturday: 8:00 AM - 7:00 PM',
         'Sunday: Closed'
       ]
     }
@@ -201,10 +201,13 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              <Button type="submit" size="lg" className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+              <button
+                type="submit"
+                className="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded inline-flex items-center justify-center"
+              >
                 Send Message
                 <Send className="ml-2 h-5 w-5" />
-              </Button>
+              </button>
             </form>
           </div>
 
@@ -233,17 +236,17 @@ const Contact = () => {
             <div className="bg-blue-50 rounded-lg p-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-4">Quick Actions</h4>
               <div className="space-y-3">
-                <Button variant="outline" className="w-full justify-start">
+                <button className="w-full px-4 py-2 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 flex items-center">
                   <Phone className="mr-2 h-4 w-4" />
                   Call Now: +91-120-4160525
-                </Button>
-                <Button variant="outline" className="w-full justify-start">
+                </button>
+                <button className="w-full px-4 py-2 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 flex items-center">
                   <Mail className="mr-2 h-4 w-4" />
                   Email: info@rotoseals.co.in
-                </Button>
-                <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
+                </button>
+                <button className="w-full px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded">
                   Request Urgent Quote
-                </Button>
+                </button>
               </div>
             </div>
 
@@ -272,12 +275,12 @@ const Contact = () => {
               our team is available to provide immediate assistance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
+              <button className="px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded">
                 Emergency Support
-              </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900">
+              </button>
+              <button className="px-6 py-3 border border-white text-white hover:bg-white hover:text-gray-900 rounded">
                 Technical Hotline
-              </Button>
+              </button>
             </div>
           </div>
         </div>
@@ -287,4 +290,3 @@ const Contact = () => {
 }
 
 export default Contact
-

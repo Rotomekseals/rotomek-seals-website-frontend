@@ -1,5 +1,5 @@
-import { MapPin, Phone, Mail, ArrowRight } from 'lucide-react'
-import rotomekLogo from './rotomek-logo.png'
+import { MapPin, Phone, Mail, ArrowRight } from 'lucide-react';
+import rotomekLogo from './rotomek-logo.png';
 
 const Footer = () => {
   const productLinks = [
@@ -9,7 +9,7 @@ const Footer = () => {
     'Metal Bellow Seals',
     'Rubber Bellow Seals',
     'PTFE Bellow Seals'
-  ]
+  ];
 
   const industryLinks = [
     'Automobile',
@@ -19,7 +19,7 @@ const Footer = () => {
     'FMCG',
     'Breweries',
     'Dairy'
-  ]
+  ];
 
   const serviceLinks = [
     'Design & Engineering',
@@ -28,7 +28,7 @@ const Footer = () => {
     'Installation Services',
     'Custom Solutions',
     'Emergency Support'
-  ]
+  ];
 
   const companyLinks = [
     'About Us',
@@ -37,7 +37,7 @@ const Footer = () => {
     'Careers',
     'News & Updates',
     'Contact Us'
-  ]
+  ];
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -58,10 +58,10 @@ const Footer = () => {
                 placeholder="Enter your email address"
                 className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-white"
               />
-              <Button className="bg-white text-blue-600 hover:bg-gray-100">
+              <button className="flex items-center justify-center px-6 py-3 rounded-lg bg-white text-blue-600 hover:bg-gray-100 font-medium">
                 Subscribe
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              </button>
             </div>
           </div>
         </div>
@@ -198,8 +198,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
-
+export default Footer;

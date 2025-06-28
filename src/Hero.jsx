@@ -1,14 +1,13 @@
-import { ArrowRight, CheckCircle } from 'lucide-react'
-import heroImage from './mechanical-seals-hero.jpg';
-
+import { ArrowRight, CheckCircle } from 'lucide-react';
+import heroImage from './Assets/mechanical-seals-hero.jpg'; // Make sure this path matches the image location
 
 const Hero = () => {
   const features = [
     '25+ Years of Experience',
     '2000+ Satisfied Customers',
     'World-Class Manufacturing',
-    'Comprehensive Product Range'
-  ]
+    'Comprehensive Product Range',
+  ];
 
   return (
     <section id="home" className="relative bg-gradient-to-br from-blue-50 to-gray-100 py-20">
@@ -40,13 +39,13 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
+              <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded inline-flex items-center">
                 Explore Products
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50">
+              </button>
+              <button className="px-6 py-3 border border-gray-300 text-gray-700 hover:bg-gray-50 rounded">
                 Download Catalog
-              </Button>
+              </button>
             </div>
 
             {/* Stats */}
@@ -75,7 +74,6 @@ const Hero = () => {
                 className="w-full h-auto rounded-lg shadow-2xl"
               />
             </div>
-            {/* Background decoration */}
             <div className="absolute -top-4 -right-4 w-full h-full bg-blue-200 rounded-lg -z-10"></div>
           </div>
         </div>
@@ -84,8 +82,7 @@ const Hero = () => {
       {/* Background pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
-
+export default Hero;

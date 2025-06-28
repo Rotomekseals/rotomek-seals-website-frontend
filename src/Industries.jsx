@@ -1,5 +1,4 @@
-import { Car, Pill, Fuel, Beaker, Package, Coffee, Droplets } from 'lucide-react'
-
+import { Car, Pill, Fuel, Beaker, Package, Coffee, Droplets } from 'lucide-react';
 
 const Industries = () => {
   const industries = [
@@ -52,7 +51,7 @@ const Industries = () => {
       applications: ['Milk pumps', 'Processing equipment', 'Cleaning systems'],
       color: 'bg-cyan-100 text-cyan-600'
     }
-  ]
+  ];
 
   const caseStudies = [
     {
@@ -73,7 +72,7 @@ const Industries = () => {
       solution: 'Metal bellow seals with reinforced construction',
       result: '250% improvement in operational reliability'
     }
-  ]
+  ];
 
   return (
     <section id="industries" className="py-20 bg-white">
@@ -162,19 +161,18 @@ const Industries = () => {
               Let us help you find the perfect sealing solution for your specific application.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              <button className="px-6 py-3 bg-white text-blue-600 hover:bg-gray-100 rounded font-medium">
                 Discuss Your Application
-              </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+              </button>
+              <button className="px-6 py-3 border border-white text-white hover:bg-white hover:text-blue-600 rounded font-medium">
                 Industry Case Studies
-              </Button>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Industries
-
+export default Industries;
